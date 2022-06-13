@@ -116,12 +116,12 @@
     "LICENSE",
     "README.md"
   ],
-  "browser": "./lib/sinon.js",
-  "main": "./lib/sinon.js",
+  "browser": "./pkg/sinon-esm.js",
+  "main": "./pkg/sinon-esm.js",
   "module": "./pkg/sinon-esm.js",
   "exports": {
     ".": {
-      "require": "./lib/sinon.js",
+      "require": "./pkg/sinon-esm.js",
       "import": "./pkg/sinon-esm.js"
     },
     "./*": "./*"
